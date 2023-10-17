@@ -7,6 +7,7 @@
 ### 👀 Projects we are watching with interest:
 * [PedigreeJS](https://github.com/CCGE-BOADICEA/pedigreejs) - a javascript tool for rendering pedigrees (as used in [CanRisk](https://canrisk.org/))
 * [Medical Markdown](https://github.com/open-health-hub/medical-markdown) - exploring ways of making clinical noting fast and easy in the digital age
+* [PhenoScore](https://github.com/ldingemans/PhenoScore) - open source project using AI to enhance variant interpretation in rare genetic disorders
 
 ### 💡 Unmet needs? - ideas welcome!
 * Easy pedigree notation and editing in plain text boxes (focus back on the keyboard rather than chasing a mouse around a screen)
