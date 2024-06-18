@@ -1,9 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T08:33:08.845Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.5.4" etag="nj_0aDTSgO-TsaEYjUTQ" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T11:19:37.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="dmZZSdsVwg2fSi5Y0tfp" version="24.5.4" type="github">
   <diagram name="Page-1" id="u5WdyKpmLq1f9wdWZwxd">
-    <mxGraphModel>
+    <mxGraphModel dx="1386" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-1" value="Authorisation process" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="31" y="60" width="770" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-2" value="Clinician" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-1">
+          <mxGeometry y="20" width="770" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RM7T-BV5S8IWrfnI9Fu0-2" source="RM7T-BV5S8IWrfnI9Fu0-8" target="RM7T-BV5S8IWrfnI9Fu0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-8" value="I want to be an Authoriser" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-2">
+          <mxGeometry x="30" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-10" value="Apply for HSC Code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-2">
+          <mxGeometry x="170" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-18" value="Apply for Authoriser Status via app&lt;div&gt;(Labs / Radiology)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-2">
+          <mxGeometry x="340" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-3" value="ISG Team" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-1">
+          <mxGeometry y="140" width="770" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="RM7T-BV5S8IWrfnI9Fu0-3" source="RM7T-BV5S8IWrfnI9Fu0-11" target="RM7T-BV5S8IWrfnI9Fu0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-11" value="Professional Registration validated" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-3">
+          <mxGeometry x="130" y="10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-12" value="Accept &amp;amp; notify" style="whiteSpace=wrap;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-3">
+          <mxGeometry x="280" y="10" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-16" value="Reject" style="whiteSpace=wrap;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-3">
+          <mxGeometry x="280" y="90" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="RM7T-BV5S8IWrfnI9Fu0-3" source="RM7T-BV5S8IWrfnI9Fu0-11" target="RM7T-BV5S8IWrfnI9Fu0-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-4" value="Trust MDO" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-1">
+          <mxGeometry y="260" width="770" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RM7T-BV5S8IWrfnI9Fu0-4" source="RM7T-BV5S8IWrfnI9Fu0-19" target="RM7T-BV5S8IWrfnI9Fu0-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-19" value="Authorisation status approved?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-4">
+          <mxGeometry x="160" y="25" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-22" value="Add to Authoriser Register. Inform downstream systems." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-4">
+          <mxGeometry x="269" y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-5" value="encompass" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-1">
+          <mxGeometry y="390" width="770" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-25" value="Update Authoriser status on encompass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-5">
+          <mxGeometry x="110" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-6" value="NIPIMS sysmgr" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-1">
+          <mxGeometry y="510" width="770" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-24" value="Update Authoriser status on encompass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-6">
+          <mxGeometry x="109" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-7" value="NIPACS sysmgr" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-1">
+          <mxGeometry y="630" width="770" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-23" value="Update Authoriser status on encompass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-7">
+          <mxGeometry x="110" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="RM7T-BV5S8IWrfnI9Fu0-1" source="RM7T-BV5S8IWrfnI9Fu0-10" target="RM7T-BV5S8IWrfnI9Fu0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="RM7T-BV5S8IWrfnI9Fu0-1" source="RM7T-BV5S8IWrfnI9Fu0-18" target="RM7T-BV5S8IWrfnI9Fu0-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="RM7T-BV5S8IWrfnI9Fu0-1" source="RM7T-BV5S8IWrfnI9Fu0-12" target="RM7T-BV5S8IWrfnI9Fu0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
