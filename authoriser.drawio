@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T11:51:29.096Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="SxyEBi1uxh_d_FQ5Ev3T" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T12:38:32.677Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="-q9hMY7wAmfP2FVaKl_m" version="24.5.4" type="github">
   <diagram name="Page-1" id="u5WdyKpmLq1f9wdWZwxd">
     <mxGraphModel dx="1386" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,6 +24,9 @@
         </mxCell>
         <mxCell id="RM7T-BV5S8IWrfnI9Fu0-27" value="END" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-2">
           <mxGeometry x="690" y="30" width="69" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-33" value="I retire or otherwise become permanently unavailable..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-2">
+          <mxGeometry x="499" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RM7T-BV5S8IWrfnI9Fu0-3" value="ISG Team" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-1">
           <mxGeometry y="140" width="770" height="120" as="geometry" />
@@ -52,25 +55,40 @@
         <mxCell id="RM7T-BV5S8IWrfnI9Fu0-19" value="Authorisation status approved?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-4">
           <mxGeometry x="89" y="10" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-22" value="Add to Authoriser Register. Inform downstream systems." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-4">
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="RM7T-BV5S8IWrfnI9Fu0-4" source="RM7T-BV5S8IWrfnI9Fu0-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="729" y="-150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="339" y="160" />
+              <mxPoint x="730" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-22" value="Update Authoriser Register. Inform downstream systems." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-4">
           <mxGeometry x="279" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RM7T-BV5S8IWrfnI9Fu0-4" source="RM7T-BV5S8IWrfnI9Fu0-34" target="RM7T-BV5S8IWrfnI9Fu0-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-34" value="Details checked - decision to remove from Authoriser Register" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-4">
+          <mxGeometry x="439" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RM7T-BV5S8IWrfnI9Fu0-5" value="encompass" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-1">
           <mxGeometry y="390" width="770" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-25" value="Update Authoriser status on encompass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-5">
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-25" value="Update Authoriser status on encompass" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-5">
           <mxGeometry x="110" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RM7T-BV5S8IWrfnI9Fu0-6" value="NIPIMS sysmgr" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-1">
           <mxGeometry y="510" width="770" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-24" value="Update Authoriser status on encompass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-6">
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-24" value="Update Authoriser status on NIPIMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-6">
           <mxGeometry x="109" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RM7T-BV5S8IWrfnI9Fu0-7" value="NIPACS sysmgr" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-1">
           <mxGeometry y="630" width="770" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-23" value="Update Authoriser status on encompass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-7">
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-23" value="Update Authoriser status on NIPACS+" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RM7T-BV5S8IWrfnI9Fu0-7">
           <mxGeometry x="110" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RM7T-BV5S8IWrfnI9Fu0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="RM7T-BV5S8IWrfnI9Fu0-1" source="RM7T-BV5S8IWrfnI9Fu0-10" target="RM7T-BV5S8IWrfnI9Fu0-11">
@@ -92,6 +110,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RM7T-BV5S8IWrfnI9Fu0-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="RM7T-BV5S8IWrfnI9Fu0-1" source="RM7T-BV5S8IWrfnI9Fu0-22" target="RM7T-BV5S8IWrfnI9Fu0-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-32" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="RM7T-BV5S8IWrfnI9Fu0-1" source="RM7T-BV5S8IWrfnI9Fu0-19" target="RM7T-BV5S8IWrfnI9Fu0-27">
+          <mxGeometry x="-0.8629" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RM7T-BV5S8IWrfnI9Fu0-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="RM7T-BV5S8IWrfnI9Fu0-1" source="RM7T-BV5S8IWrfnI9Fu0-33" target="RM7T-BV5S8IWrfnI9Fu0-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
