@@ -1,5 +1,7 @@
-# Welcome to McKeeLab
-## Creating solutions for 21st Century Digital Healthcare
+# Welcome to McKeeBase
+## Basecamp Lab developing solutions for 21st Century Digital Healthcare
+(Please be patient as we adapt our old links from McKeeLab to McKeeBase - turns out McKeeLab is already taken, and very interesting it is too, so we wish them success).
+
 ### 👩‍ Some projects we are working on:
 * [GenOCEANIC](https://github.com/mckeelab/genoceanic) - an open standards [openEHR](https://openehr.org/) approach to Genomics test ordering
 * [GenTest](https://github.com/mckeelab/test-dir-architecture) - a re-architecturing of the NHSE Genomic Test Directory
